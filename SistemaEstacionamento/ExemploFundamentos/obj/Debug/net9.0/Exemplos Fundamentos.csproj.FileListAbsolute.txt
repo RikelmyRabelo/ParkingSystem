@@ -1,0 +1,32 @@
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\obj\Debug\net9.0\Exemplos Fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\obj\Debug\net9.0\Exemplos Fundamentos.AssemblyInfoInputs.cache
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\obj\Debug\net9.0\Exemplos Fundamentos.AssemblyInfo.cs
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\obj\Debug\net9.0\Exemplos Fundamentos.csproj.CoreCompileInputs.cache
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\bin\Debug\net9.0\Exemplos Fundamentos.exe
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\bin\Debug\net9.0\Exemplos Fundamentos.deps.json
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\bin\Debug\net9.0\Exemplos Fundamentos.runtimeconfig.json
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\bin\Debug\net9.0\Exemplos Fundamentos.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\bin\Debug\net9.0\Exemplos Fundamentos.pdb
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\obj\Debug\net9.0\Exemplos Fundamentos.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\obj\Debug\net9.0\refint\Exemplos Fundamentos.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\obj\Debug\net9.0\Exemplos Fundamentos.pdb
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\obj\Debug\net9.0\Exemplos Fundamentos.genruntimeconfig.cache
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\obj\Debug\net9.0\ref\Exemplos Fundamentos.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\bin\Debug\net9.0\Exemplos Fundamentos.exe
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\bin\Debug\net9.0\Exemplos Fundamentos.deps.json
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\bin\Debug\net9.0\Exemplos Fundamentos.runtimeconfig.json
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\bin\Debug\net9.0\Exemplos Fundamentos.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\bin\Debug\net9.0\Exemplos Fundamentos.pdb
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\bin\Debug\net9.0\ExemploFundamentos.Common.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\bin\Debug\net9.0\ExemploFundamentos.Common.pdb
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\Exemplos Fundamentos.csproj.AssemblyReference.cache
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\Exemplos Fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\Exemplos Fundamentos.AssemblyInfoInputs.cache
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\Exemplos Fundamentos.AssemblyInfo.cs
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\Exemplos Fundamentos.csproj.CoreCompileInputs.cache
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\Exemplos.0EB6868A.Up2Date
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\Exemplos Fundamentos.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\refint\Exemplos Fundamentos.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\Exemplos Fundamentos.pdb
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\Exemplos Fundamentos.genruntimeconfig.cache
+C:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\ExemploFundamentos\obj\Debug\net9.0\ref\Exemplos Fundamentos.dll

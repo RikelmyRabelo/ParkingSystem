@@ -1,0 +1,5 @@
+c:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\bin\Release\net9.0\publish\Exemplos Fundamentos.exe
+c:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\bin\Release\net9.0\publish\Exemplos Fundamentos.dll
+c:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\bin\Release\net9.0\publish\Exemplos Fundamentos.deps.json
+c:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\bin\Release\net9.0\publish\Exemplos Fundamentos.runtimeconfig.json
+c:\Users\rikel\OneDrive\Projetos Dio\Exemplos Fundamentos\bin\Release\net9.0\publish\Exemplos Fundamentos.pdb
