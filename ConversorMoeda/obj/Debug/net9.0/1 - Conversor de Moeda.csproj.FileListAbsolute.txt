@@ -1,0 +1,14 @@
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\bin\Debug\net9.0\1 - Conversor de Moeda.exe
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\bin\Debug\net9.0\1 - Conversor de Moeda.deps.json
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\bin\Debug\net9.0\1 - Conversor de Moeda.runtimeconfig.json
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\bin\Debug\net9.0\1 - Conversor de Moeda.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\bin\Debug\net9.0\1 - Conversor de Moeda.pdb
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\obj\Debug\net9.0\1 - Conversor de Moeda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\obj\Debug\net9.0\1 - Conversor de Moeda.AssemblyInfoInputs.cache
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\obj\Debug\net9.0\1 - Conversor de Moeda.AssemblyInfo.cs
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\obj\Debug\net9.0\1 - Conversor de Moeda.csproj.CoreCompileInputs.cache
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\obj\Debug\net9.0\1 - Conversor de Moeda.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\obj\Debug\net9.0\refint\1 - Conversor de Moeda.dll
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\obj\Debug\net9.0\1 - Conversor de Moeda.pdb
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\obj\Debug\net9.0\1 - Conversor de Moeda.genruntimeconfig.cache
+C:\Users\rikel\OneDrive\Projetos Dio\Projetos Semanais\1 - Conversor de Moeda\obj\Debug\net9.0\ref\1 - Conversor de Moeda.dll
