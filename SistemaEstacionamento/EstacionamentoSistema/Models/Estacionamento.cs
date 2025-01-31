@@ -50,10 +50,10 @@ namespace SistemaEstacionamento.Models
                     int horas = int.Parse(Console.ReadLine());
 
                     decimal valorTotal = precoInicial + precoPorHora * horas;
-                    Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
+                    Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal}");
 
                     // Remove o veículo da lista
-                    veiculos.Remove(placa);
+                    veiculos.Remove(placa.ToUpper());
                 }
                 else
                 {
