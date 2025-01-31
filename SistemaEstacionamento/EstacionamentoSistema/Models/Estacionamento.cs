@@ -19,7 +19,7 @@ namespace SistemaEstacionamento.Models
         {
             if (veiculos.Count >= capacidade)
             {
-                Console.WriteLine("Erro: O estacionamento está cheio! Nenhum veículo pode ser adicionado.");
+                Console.WriteLine("Erro: O estacionamento está cheio! Nenhum veículo pode ser adicionado no momento.");
                 return;
             }
 
