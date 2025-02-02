@@ -48,9 +48,17 @@ namespace SistemaEstacionamento.Models
                 {
                     Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
                     int horas = int.Parse(Console.ReadLine());
-
-                    decimal valorTotal = precoInicial + precoPorHora * horas;
-                    Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal}");
+                        if (horas <= 1)
+                        {
+                            Console.WriteLine("Você ficou apenas uma hora ou menos, por isso recebeu R$5 de desconto no valor total.");
+                            decimal valorTotal = precoInicial + precoPorHora * horas - 5 ;
+                            Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal}");
+                        }
+                        else
+                        {
+                            decimal valorTotal = precoInicial + precoPorHora * horas;
+                            Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal}");
+                        }
 
                     // Remove o veículo da lista
                     veiculos.Remove(placa.ToUpper());
@@ -72,11 +80,12 @@ namespace SistemaEstacionamento.Models
             // Verifica se há veículos no estacionamento
             if (veiculos.Any())
             {
-
+                DateTime horaEntrada = DateTime.Now;
                 Console.WriteLine("Os veículos estacionados são:");
                 foreach (var veiculo in veiculos)
                 {
-                    Console.WriteLine(veiculo);
+                    
+                    Console.WriteLine($"{veiculo} - Hora de Entrada: {horaEntrada.ToString("HH:mm:ss")}");
                 }
             }
             else
@@ -93,7 +102,7 @@ namespace SistemaEstacionamento.Models
 
             if (veiculos.Count >= capacidade)
             {
-                Console.WriteLine("⚠️ O estacionamento está cheio!");
+                Console.WriteLine("O estacionamento está cheio!⚠️");
             }
 
 
