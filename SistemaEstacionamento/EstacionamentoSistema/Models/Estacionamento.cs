@@ -34,9 +34,9 @@ namespace SistemaEstacionamento.Models
             if (veiculos.Any())
             {
                 Console.WriteLine("Carros cadastrados:");
-                foreach (var Veiculo in veiculos)
+                foreach (var veiculo in veiculos)
                 {
-                    Console.WriteLine($"Placa: {Veiculo.Placa} - Hora de Entrada: {Veiculo.HoraEntrada.ToString("HH:mm:ss")}");
+                    Console.WriteLine($"Placa: {veiculo.Placa} - Hora de Entrada: {veiculo.HoraEntrada.ToString("HH:mm:ss")}");
                 }
 
                 // Solicita a placa do veículo a ser removido
@@ -44,11 +44,11 @@ namespace SistemaEstacionamento.Models
                 string placa = Console.ReadLine();
 
                 // Verifica se o veículo existe
-                if (veiculos.Any(x => x.Placa.ToUpper() == placa.ToUpper()))
+                var veiculoARemover = veiculos.FirstOrDefault(v => v.Placa.ToUpper() == placa.ToUpper());
+                if (veiculoARemover != null)
                 {
                     Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
                     int horas = int.Parse(Console.ReadLine());
-<<<<<<< HEAD
                     if (horas <= 1)
                     {
                         Console.WriteLine("Você ficou apenas uma hora ou menos, por isso recebeu R$5 de desconto no valor total.");
@@ -60,22 +60,7 @@ namespace SistemaEstacionamento.Models
                         decimal valorTotal = precoInicial + precoPorHora * horas;
                         Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal}");
                     }
-=======
-                        if (horas <= 1)
-                        {
-                            Console.WriteLine("Você ficou apenas uma hora ou menos, por isso recebeu R$5 de desconto no valor total.");
-                            decimal valorTotal = precoInicial + precoPorHora * horas - 5 ;
-                            Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal}");
-                        }
-                        else
-                        {
-                            decimal valorTotal = precoInicial + precoPorHora * horas;
-                            Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal}");
-                        }
->>>>>>> d7183e4eac2d51f3d4d3093a9edde76ccc1d7478
-
-                    // Remove o veículo da lista
-                    veiculos.Remove(veiculos.First(x => x.Placa.ToUpper() == placa.ToUpper()));
+                    veiculos.Remove(veiculoARemover);
                 }
                 else
                 {
@@ -94,20 +79,10 @@ namespace SistemaEstacionamento.Models
             // Verifica se há veículos no estacionamento
             if (veiculos.Any())
             {
-<<<<<<< HEAD
                 Console.WriteLine("Os veículos estacionados são:");
                 foreach (var veiculo in veiculos)
                 {
                     Console.WriteLine($"Placa: {veiculo.Placa} - Hora de Entrada: {veiculo.HoraEntrada.ToString("HH:mm:ss")}");
-
-=======
-                DateTime horaEntrada = DateTime.Now;
-                Console.WriteLine("Os veículos estacionados são:");
-                foreach (var veiculo in veiculos)
-                {
-                    
-                    Console.WriteLine($"{veiculo} - Hora de Entrada: {horaEntrada.ToString("HH:mm:ss")}");
->>>>>>> d7183e4eac2d51f3d4d3093a9edde76ccc1d7478
                 }
             }
             else
@@ -115,7 +90,6 @@ namespace SistemaEstacionamento.Models
                 Console.WriteLine("Não há veículos estacionados.");
             }
         }
-
 
         public void ExibirCapacidade()
         {
@@ -126,7 +100,6 @@ namespace SistemaEstacionamento.Models
             {
                 Console.WriteLine("O estacionamento está cheio!⚠️");
             }
-
         }
 
         public class Veiculo
