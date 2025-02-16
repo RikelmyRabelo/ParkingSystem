@@ -8,15 +8,34 @@ decimal precoInicial = 0;
 decimal precoPorHora = 0;
 int capacidade = 0;
 
-Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
-                  "Digite o preço inicial:");
-precoInicial = Convert.ToDecimal(Console.ReadLine());
+try
+{
+    // Tenta obter os valores iniciais do estacionamento
+    Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
+                      "Digite o preço inicial:");
+    precoInicial = Convert.ToDecimal(Console.ReadLine());
 
-Console.WriteLine("Agora digite o preço por hora:");
-precoPorHora = Convert.ToDecimal(Console.ReadLine());
+    Console.WriteLine("Agora digite o preço por hora:");
+    precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
-Console.WriteLine("Por fim, a capacidade do estacionamento: ");
-capacidade = int.Parse(Console.ReadLine());
+    Console.WriteLine("Por fim, a capacidade do estacionamento: ");
+    capacidade = int.Parse(Console.ReadLine());
+}
+catch (FormatException ex)
+{
+    Console.WriteLine("Erro: Entrada inválida. Por favor, insira um número válido. " + ex.Message);
+    return;
+}
+catch (OverflowException ex)
+{
+    Console.WriteLine("Erro: Número muito grande. Por favor, insira um valor menor. " + ex.Message);
+    return;
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Erro ao obter os valores iniciais do estacionamento: " + ex.Message);
+    return;
+}
 
 // Instancia a classe Estacionamento, já com os valores obtidos anteriormente
 Estacionamento es = new Estacionamento(precoInicial, precoPorHora, capacidade);
@@ -33,7 +52,6 @@ while (exibirMenu)
     Console.WriteLine("2 - Remover veículo");
     Console.WriteLine("3 - Listar veículos");
     Console.WriteLine("4 - Encerrar");
-   
 
     switch (Console.ReadLine())
     {

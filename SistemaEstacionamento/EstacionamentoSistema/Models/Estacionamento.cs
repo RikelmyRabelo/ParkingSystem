@@ -47,18 +47,21 @@ namespace SistemaEstacionamento.Models
                 var veiculoARemover = veiculos.FirstOrDefault(v => v.Placa.ToUpper() == placa.ToUpper());
                 if (veiculoARemover != null)
                 {
+                    // Define a hora de saída
+                    veiculoARemover.HoraSaida = DateTime.Now;
+
                     Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
                     int horas = int.Parse(Console.ReadLine());
                     if (horas <= 1)
                     {
                         Console.WriteLine("Você ficou apenas uma hora ou menos, por isso recebeu R$5 de desconto no valor total.");
-                        decimal valorTotal = precoInicial + precoPorHora * horas - 5;
-                        Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal}");
+                        decimal valorTotal = (precoInicial + precoPorHora) * horas - 5;
+                        Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal} - Hora de Entrada: {veiculoARemover.HoraEntrada.ToString("HH:mm")} - Hora de Saída: {veiculoARemover.HoraSaida.ToString("HH:mm")}");
                     }
                     else
                     {
-                        decimal valorTotal = precoInicial + precoPorHora * horas;
-                        Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal}");
+                        decimal valorTotal = (precoInicial + precoPorHora) * horas;
+                        Console.WriteLine($"O veículo {placa.ToUpper()} foi removido e o preço total foi de: R$ {valorTotal} - Hora de Entrada: {veiculoARemover.HoraEntrada.ToString("HH:mm")} - Hora de Saída: {veiculoARemover.HoraSaida.ToString("HH:mm")}");
                     }
                     veiculos.Remove(veiculoARemover);
                 }
@@ -106,6 +109,7 @@ namespace SistemaEstacionamento.Models
         {
             public string Placa { get; set; }
             public DateTime HoraEntrada { get; set; }
+            public DateTime HoraSaida { get; set; }
 
             public Veiculo(string placa)
             {
